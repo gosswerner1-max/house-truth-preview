@@ -1,0 +1,15 @@
+# House Truth
+
+> Know the condition of a house before you sign. A walk-through with photos, a short list of the problems found and a full checklist of everything looked at.
+
+House Truth offers pre-purchase house inspections in South Africa: a visual walk-through of a house before you buy it, with photos, a short list of the problems found and a full checklist of everything looked at.
+
+## What it is not
+- We look at what can be seen and reached on the day. We do not open walls, dig or take anything apart.
+- We do not test appliances, electrics, plumbing or gas. An electrician, plumber or gas installer does that and issues the certificates.
+- We list what we find. We do not quote for repairs and we do not tell you who to hire.
+- This is not a certificate and not a guarantee.
+
+## Contact
+- Email: hello@housetruth.co.za
+- Site: https://gosswerner1-max.github.io/house-truth-preview/
