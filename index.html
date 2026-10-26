@@ -69,20 +69,10 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--sky); outline-off
 .hero { color: #fff; background: #1566d8; border-bottom: 1px solid var(--line); }
 .banner { position: relative; }
 .hero-photo { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 62%; }
-@media (min-width: 48rem) { .hero-photo { aspect-ratio: 16 / 7; } }
+@media (min-width: 48rem) { .hero-photo { aspect-ratio: 16 / 6; object-position: center 58%; } .chip { left: 1.5rem; bottom: 1.5rem; font-size: 1.05rem; } }
 .chip { position: absolute; left: 1rem; bottom: 1rem; margin: 0; padding: 0.45rem 0.9rem; border-radius: 999px; background: #1566d8; color: #fff; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(8, 40, 100, 0.35); }
 .hero .tagline { display: none; }
 .hero-text { padding-top: 1.8rem; padding-bottom: 2.2rem; }
-@media (min-width: 48rem) {
-  .hero { position: relative; overflow: hidden; min-height: 31rem; display: flex; align-items: center; }
-  .banner { position: absolute; inset: 0; }
-  .banner::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #1566d8 0%, rgba(21, 102, 216, 0.93) 34%, rgba(21, 102, 216, 0) 62%); }
-  .hero-photo { height: 100%; aspect-ratio: auto; transform: scale(1.35); transform-origin: 0% 60%; object-position: center 60%; }
-  .chip { display: none; }
-  .hero .tagline { display: block; }
-  .hero-text { position: relative; z-index: 1; width: 100%; padding-top: 3rem; padding-bottom: 3rem; }
-  .hero-text > *, .hero-text > .lead { max-width: 26rem; }
-}
 @media (min-width: 48rem) { .hero-text { padding-top: 2.4rem; padding-bottom: 2.8rem; } }
 .hero h1, .hero .lead { color: #fff; }
 .hero .eyebrow, .hero .tagline { color: #d6e6fd; }
@@ -124,6 +114,7 @@ footer { padding: 1.6rem 0 2.4rem; color: var(--muted); font-size: 0.95rem; bord
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; animation: none !important; } }
 @media print { header nav, .actions { display: none; } body { background: #fff; color: #000; } }
 #what-you-get .grid { grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+@media (min-width: 48rem) { .hero h1 { max-width: 30ch; } }
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"House Truth","url":"https://gosswerner1-max.github.io/house-truth-preview/","email":"hello@housetruth.co.za","description":"Know the condition of a house before you sign. A walk-through with photos, a short list of the problems found and a full checklist of everything looked at."}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"House Truth","url":"https://gosswerner1-max.github.io/house-truth-preview/","inLanguage":"en-ZA"}</script>
