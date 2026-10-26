@@ -69,8 +69,8 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--sky); outline-off
 .hero { color: #fff; background: #1566d8; border-bottom: 1px solid var(--line); }
 .banner { position: relative; }
 .hero-photo { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 62%; }
-@media (min-width: 48rem) { .hero-photo { aspect-ratio: 16 / 6; object-position: center 58%; } .chip { left: 1.5rem; bottom: 1.5rem; font-size: 1.05rem; } }
-.chip { position: absolute; left: 1rem; bottom: 1rem; margin: 0; padding: 0.45rem 0.9rem; border-radius: 999px; background: #1566d8; color: #fff; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(8, 40, 100, 0.35); }
+.chip { position: absolute; left: 50%; bottom: 0.9rem; transform: translateX(-50%); width: 92%; margin: 0; padding: 0; text-align: center; background: none; color: #000; font-weight: 700; font-size: 1.3rem; letter-spacing: -0.01em; text-shadow: 0 0 3px rgba(255, 255, 255, 0.95), 0 0 10px rgba(255, 255, 255, 0.75); }
+@media (min-width: 48rem) { .hero-photo { aspect-ratio: 16 / 6; object-position: center 58%; } .chip { bottom: 1.4rem; font-size: 2rem; } }
 .hero .tagline { display: none; }
 .hero-text { padding-top: 1.8rem; padding-bottom: 2.2rem; }
 @media (min-width: 48rem) { .hero-text { padding-top: 2.4rem; padding-bottom: 2.8rem; } }
