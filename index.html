@@ -65,7 +65,16 @@ nav a { color: var(--ink); text-decoration: none; font-weight: 500; }
 nav a:hover { color: var(--blue-strong); text-decoration: underline; }
 a { color: var(--blue-strong); }
 a:focus-visible, .btn:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; }
-.hero { padding: 3rem 0 2.5rem; background: var(--blue-soft); border-bottom: 1px solid var(--line); }
+.hero { padding: 4rem 0 3.5rem; color: #fff; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, rgba(15, 79, 174, 0.78) 0%, rgba(15, 79, 174, 0.58) 55%, rgba(15, 79, 174, 0.28) 100%), url(hero.jpg) center 35% / cover no-repeat var(--blue-strong); }
+@media (min-width: 48rem) { .hero { padding: 6rem 0 5.5rem; background: linear-gradient(90deg, rgba(15, 79, 174, 0.92) 0%, rgba(15, 79, 174, 0.78) 42%, rgba(15, 79, 174, 0.1) 100%), url(hero.jpg) center 35% / cover no-repeat var(--blue-strong); } }
+.hero h1, .hero .lead { color: #fff; }
+.hero h1, .hero .lead, .hero .eyebrow, .hero .tagline { text-shadow: 0 1px 8px rgba(8, 40, 100, 0.55); }
+.hero .eyebrow, .hero .tagline { color: #cfe2fd; }
+.hero .btn { background: #fff; color: #0f4fae; border-color: #fff; }
+.hero .btn:hover { background: #e7f0fe; border-color: #e7f0fe; }
+.hero .btn.ghost { background: transparent; color: #fff; border-color: #fff; }
+.hero .btn.ghost:hover { background: rgba(255, 255, 255, 0.16); }
+.hero a:focus-visible { outline-color: #fff; }
 .eyebrow { margin: 0 0 0.6rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.85rem; color: var(--blue-strong); }
 h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 1rem; max-width: 20ch; }
 h2 { font-size: clamp(1.5rem, 4vw, 2rem); line-height: 1.15; letter-spacing: -0.015em; margin: 0 0 1rem; }
